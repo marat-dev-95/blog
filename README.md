@@ -1,3 +1,15 @@
+## Запуск
+git clone https://github.com/marat-dev-95/blog.git
+
+ cp .env.example .env
+
+ composer install
+
+ ./vendor/bin/sail up && ./vendor/bin/sail php artisan storage:link
+
+ затем перейти по http://localhost/admin/
+
+
 ## Доступы
 Админ: admin@admin.com 
 
